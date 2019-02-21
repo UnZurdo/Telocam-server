@@ -13,12 +13,12 @@ def save_new_mensaje(data):
         text=data['text'],
         created_date=datetime.datetime.utcnow()
     )
-    save_changes(new)
+    id = save_changes(new)
     response_object = {
         'status': 'success',
         'message': 'Successfully saved.',
     }
-    return response_object, 200
+    return id
 
 
 def get_all_mensajes():
@@ -32,3 +32,4 @@ def get_a_mensaje(id):
 def save_changes(data):
     db.session.add(data)
     db.session.commit()
+    return data

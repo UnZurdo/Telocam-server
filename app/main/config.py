@@ -6,6 +6,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 BD_PASWORD = os.getenv('BD_PASWORD', 'juliocesar12')
+BD_NAME = os.getenv('BD_NAME', 'juliocesar12')
 
 
 class Config:
