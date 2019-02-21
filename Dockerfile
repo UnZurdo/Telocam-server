@@ -2,7 +2,7 @@ FROM python:2.7
 
 WORKDIR /app
 
-COPY requirements2.txt requirements.txt
+COPY requirements.txt requirements.txt
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
