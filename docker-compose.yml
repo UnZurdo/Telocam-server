@@ -7,7 +7,7 @@ services:
       - "5000:5000"
     environment:
       MYSQL_USER: "root"
-      BD_PASWORD: "juliocesar12"
+      BD_PASWORD: ""
       BD_NAME: "proyecto_software"
       SECRET_KEY: "secret-key"
     volumes:
