@@ -20,6 +20,10 @@ source env/bin/activate
 # Instalar dependencias
 pip install requirements.txt
 
+# Editar fichero app/main/config.py o exportar variable entorno
+BD_PASSWORD
+BD_NAME
+
 ```
 ## Build Setup
 
