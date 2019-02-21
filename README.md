@@ -8,9 +8,23 @@
 
 - Usamos JWT tokens para atenticar a los usuarios
 
+## Setup development enviroment
+```bash
+
+# Crear virtual enviroment
+virtualenv -p python3 env
+
+# Activar virtualenv
+source env/bin/activate
+
+# Instalar dependencias
+pip install requirements.txt
+
+```
 ## Build Setup
 
 ```bash
+
 # crear base de dados en mysql server
 CREATE DATABASE proyecto-software
 
