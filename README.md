@@ -18,10 +18,10 @@ virtualenv -p python3 env
 source env/bin/activate
 
 # Instalar dependencias
-pip install requirements.txt
+pip install -r requirements.txt
 
 # Editar fichero app/main/config.py o exportar variable entorno
-BD_PASSWORD
+BD_PASSWORD              // default: proyecto_software
 BD_NAME
 
 ```
